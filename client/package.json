@@ -1,6 +1,7 @@
 {
     "name": "react-assessment-bhumio",
     "author": "minimals.cc",
+    "proxy":"https://sheet-crud.onrender.com",
     "licence": "MIT",
     "version": "1.7.0",
     "private": false,

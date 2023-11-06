@@ -1,7 +1,7 @@
 import { createSlice, createAsyncThunk } from "@reduxjs/toolkit";
 import axios from "axios";
 
-const API_URL = "http://localhost:5000";
+const API_URL = 'https://sheet-crud.onrender.com';
 
 const fetchFiles = createAsyncThunk("files/fetchFiles", async () => {
   const { data } = await axios.get(`${API_URL}/user/files`);
