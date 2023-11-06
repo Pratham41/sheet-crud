@@ -1,1 +1,0 @@
-# bhumio-assessment
